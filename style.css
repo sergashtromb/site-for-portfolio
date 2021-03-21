@@ -1,0 +1,646 @@
+body {
+	font-family: OpenSans, sans-serif; 
+	font-size: 20px; 
+	width: 1400px; 
+}
+
+header {
+	width: 1400px; 
+	height: 899px; 
+
+
+}
+
+/*слоган картинка, плавает*/
+#slogan {
+	width: 100px; 
+	height: 100px; 
+	border-radius: 50%;  
+	position: fixed;
+	top: 10px; 
+	left: 50px; 
+	z-index: 5;
+}
+
+
+/*Первый блок Главная*/
+.block_home {  
+	background-image: url(images/background_img.jpg);  
+
+	background-size: 100% auto; 
+	background-repeat: no-repeat;
+	margin: 86px 0px 0px -8px;
+	background-color: #747474; 
+	width: 1519px; 
+	height: 710px; 
+}
+
+/*текст в первом блоке*/
+.text_block_home {
+	color: #fff; 
+	text-align: center; 
+	padding-top: 180px; 
+	font-size: 320%; 
+	font-weight: 400; 
+	letter-spacing: 3px;
+} 
+
+#h2 {
+	margin-top: -190px;
+	font-size: 120%; 
+	letter-spacing: 0.08em;
+} 
+/*расположение кнопок в первом блоке*/
+.button_block1 {
+	text-align: center; 
+	padding: 110px 10px 0px 10px; 
+
+}
+/*Вид кнопок*/
+.button_block1 a {
+	padding: 25px 25px; 
+	border: 3px solid #fff; 
+	margin: 0px 10px; 
+	text-decoration: none; 
+	color: #fff; 
+	z-index: 3;
+}
+/*анимация*/
+.button_block1 a:hover {
+	background-color: #00897b; 
+	border: #00897b 3px solid; 
+	
+	transition: 0.5s;
+}
+/*Список ссылок в шапке*/
+header nav li {
+	display: inline-block; 
+	padding: 5px 0px 5px 5px; 
+	position: relative; 
+	top: 35px; 
+	left: 720px; 
+	font-weight: 500px; 
+	color: #212121; 
+	font-size: 90%; 
+
+
+}  
+
+/*Сами ссылки*/
+header nav li a {
+	text-decoration: none; 
+	color: #121212; 
+	padding: 0px 20px;
+	border-spacing: none;
+} 
+/*анимация ссылок в шапке*/
+header nav li a:hover {
+	text-decoration: underline;
+	
+	color: #00897b;
+} 
+/*стрелка*/
+#strelka {
+	text-align: center; 
+	padding: 190px 0px 0px 24px;
+} 
+
+/*Второй блок about*/ 
+
+.about {
+	height: 470px; 
+	width: 1400px; 
+	background-color: #fff;
+} 
+
+.about_one {
+	text-align: center;
+	width: 619px; 
+	height: 100px; 
+	margin: 0px 0px 0px 450px; 
+	color: #212121;
+} 
+/*таблица линии блоков*/
+.line_block {
+	display: table; 
+	margin: 100px 0px 0px 119px; 
+} 
+/*линия блоков*/
+.line_blockRow {
+	display: table-row; 
+	
+	width: 1281px;
+} 
+/*первый блок в линии*/
+#spher { 
+	display: table-cell;
+	font-size: 75%; 
+	width: 427px; 
+	text-align: center; 
+	padding: 0px 5px;
+} 
+/*картинка первого блока линии*/
+#spher img {
+	width: 62px; 
+	height: 62px;
+} 
+/*второй блок линии*/
+#comun {
+	display: table-cell;
+	font-size: 75%; 
+	width: 427px; 
+	text-align: center; 
+	padding: 0px 5px;
+} 
+/*картинка второго блока линии*/
+#comun img {
+	width: 62px; 
+	height: 62px;
+} 
+
+/*третий блок линии*/ 
+#intel {
+	display: table-cell;
+	font-size: 75%; 
+	width: 427px; 
+	text-align: center; 
+	padding: 0px 5px;
+}
+
+/*картинка третьего блока линии*/ 
+#intel img {
+	width: 62px; 
+	height: 62px;
+} 
+
+/*третий блок*/ 
+.block_3 {
+	margin: 0px 0px 0px -8px;
+	width: 1519px; 
+	height: 1414px; 
+	background-color: #e4fdf9;
+} 
+/*третий блок вступление*/
+#block_3_start { 
+	width: 619px;
+	text-align: center; 
+	margin: 0px 454px; 
+	padding: 170px 0px;
+} 
+
+#block_3_start p {
+	font-size: 83%; 
+}
+
+/*таблица из двух линий*/
+.table_block_3 {
+	display: table; 
+	font-size: 80%; 
+	padding: 10px 50px; 
+
+}
+/*две линии и их ширина*/
+.table_block_3Row1, .table_block_3Row2 {
+	width: 1170px; 
+	display: table-row;  
+	position: relative; 
+	top: 0; 
+	left: 120px;
+
+} 
+/*блоки в линии вид*/
+.table_block_3_line1 {  
+	display: table-cell;
+	line-height: 1.2em;
+	width: 370px; 
+	height: 438px; 
+	text-align: center; 
+	background-image: url(images/phon_black.png); 
+	background-position: top; 
+	background-position: 50% 15%;
+	background-repeat: no-repeat; 
+	background-color: #fff;  
+	border: 15px solid #e4fdf9;  
+	border-bottom: 5px solid #e4fdf9;
+} 
+
+/*отступы*/
+.table_block_3_line1 h2 {
+	padding: 150px 0px 0px 0px;
+} 
+
+.table_block_3_line1 p {
+	padding: 40px 40px;
+} 
+/*вид ссылки в блоке*/
+.table_block_3_line1 a { 
+	text-decoration: none; 
+	border: 2px solid #000; 
+	color: #000;  
+	padding: 20px;
+} 
+/*анимация при наведении на элемент*/
+.table_block_3_line1:hover {
+	background-color: #00897b; 
+	background-image: url(images/phon_white.png); 
+	color: #fff;  
+	transition: 1.6s;
+} 
+
+.table_block_3_line1 a:hover {
+	border: 2px solid #fff; 
+	color: #fff;  
+	transition: 1.2s;
+} 
+
+/*блок четвертый*/
+.block_4 {
+	height: 1616px; 
+	width: 1519px; 
+	margin: 0px 0px 0px -8px; 
+} 
+
+/*блок 4 старт*/ 
+.block_4_start {
+	width: 619px;
+	text-align: center; 
+	margin: 0px 454px; 
+	padding: 170px 0px;
+} 
+
+/*табличное представление картинок*/ 
+.table_block_4 {
+	display: table; 
+	padding: 0px 0px 0px 40px;
+} 
+/*первая строка*/
+.table_block_4Row1 {
+	display: table-row; 
+	position: relative; 
+	top: 0; 
+	left: 115px;
+} 
+/*вторая строка*/ 
+.table_block_4Row2 {
+	display: table-row;; 
+	position: relative; 
+	top: 10px; 
+	left: 25%;
+} 
+/*сами картинки*/
+.table_block_4 img {
+	padding: 10px; 
+	
+} 
+/*прозрачность после наведения*/
+.table_block_4 img:hover {
+	background-color: #000; 
+	opacity: 0.5;
+} 
+/*ссылка в 4 блоке*/
+.button_block_4 a {
+	position: relative; 
+	top: 150px; 
+	left: 40%; 
+	text-decoration-line: none; 
+	color: #000; 
+	padding: 27px 60px; 
+	border:  solid #00897b;
+}  
+/*анимация при наведении на ссылку*/ 
+.button_block_4 a:hover {
+	color: #fff; 
+	background-color: #00897b; 
+	transition: 0.7s;
+} 
+/*блок 5*/
+.block_5 {
+	width: 1519px; 
+	height: 1142px; 
+	background-color: rgba(6,12,11,0.2);
+	margin: 0px 0px 0px -8px; 
+} 
+/*заголовок 5 блока*/
+.block_5_start {
+	width: 619px;
+	text-align: center; 
+	margin: 0px 454px; 
+	padding: 100px 0px;
+} 
+/*табличное представление в 5 блоке*/
+.table_block_5 {
+	display: table; 
+	padding: 10px; 
+	width: 1172px;
+} 
+/*строка в таблице*/
+.table_block_5Row {
+	display: table-row; 
+	position: relative; 
+	top: 0; 
+	left: 14%; 
+	width: 1172px;
+} 
+/*ячейка с расценкой*/
+.line_block_5 {
+	display: table-cell;  
+	width: 370px; 
+	height: 667px;
+	background-color: #fff; 
+	background-image: url(images/block_5.png); 
+	background-repeat: no-repeat; 
+	border: 11px solid rgba(6,12,11,0.2); 
+	text-align: center; 
+	color: #fff;
+} 
+/*размер расценки*/
+.cenz {
+	font-size: 200%; 
+
+}  
+/*полоски и надписи в расценке первая расценка*/
+.make_block_5 { 
+	width: 180px; 
+	position: relative;
+	top: 0; 
+	left: 90px;
+	margin-top: 120px; 
+	color: #000; 
+	line-height: 2em; 
+	border-bottom: 2px solid #212121; 
+	font-size: 85%;
+	padding: 10px;
+}
+/*остальные две*/
+.make_block_52 {
+	width: 180px; 
+	position: relative;
+	top: 0; 
+	left: 90px;
+	 
+	color: #000; 
+	line-height: 2em; 
+	border-bottom: 2px solid #212121; 
+	font-size: 85%;
+	padding: 10px;
+} 
+/*ссылки снизу*/
+.line_block_5 a {
+	text-decoration: none; 
+	color: #000; 
+	position: relative; 
+	top: 30px; 
+	left: 0; 
+	padding: 20px; 
+	border: 2px solid ;
+} 
+/*анимация ссылки*/
+.line_block_5 a:hover {
+	color: #fff; 
+	background-color: #00897b; 
+	border: 2px solid #00897b; 
+	transition: 0.5s;
+} 
+
+.Our_team {
+	width: 1400px; 
+	height: 1095px; 
+	margin: 0px 0px 0px -8px;
+} 
+
+.Our_team_start {
+	width: 619px;
+	text-align: center; 
+	margin: 0px 454px; 
+	padding: 170px 0px;
+} 
+
+
+.Our_team_table {
+	display: table; 
+	position: relative; 
+	top: 0; 
+	left: 12%;
+} 
+
+.Our_team_table_row {
+	display: table-row;
+} 
+
+.One_member {
+	display: table-cell; 
+	border: 15px solid #fff; 
+	text-align: center;
+} 
+
+.messeg_str {
+	border: 1px solid #fff; 
+	padding: 20px; 
+	background-color: #f0f1f1; 
+	border-radius: 10px;
+} 
+
+.messeg_str:hover {
+	background-color: #000; 
+	border: 1px solid #fff; 
+	transition: 0.4s;
+} 
+
+.One_member p {
+	font-size: 80%;
+} 
+
+.blog {
+	width: 1519px; 
+	height: 1869px; 
+	margin: 0px 0px 0px -8px; 
+	background-color: #e4fdf9;
+} 
+
+.blog_start {
+	width: 619px;
+	text-align: center; 
+	margin: 0px 454px; 
+	padding: 170px 0px;
+} 
+
+
+
+.blog_block_table {
+	display: table; 
+	position: relative; 
+	top: 0;
+	left: 115px;
+} 
+
+.blog_block_table_row {
+	display: table-row; 
+	padding: 10px 0px;
+
+} 
+
+.blog_block_text, .blog_block_img {
+	display: table-cell;
+} 
+
+.blog_block_text {
+	position: relative; 
+	top: -340px; 
+	left: 30px; 
+	width: 460px;
+} 
+
+.blog_block_text ul li {
+	display: inline-block; 
+} 
+
+.data {
+	position: relative; 
+	top: 0; 
+	left: -40px;
+} 
+
+.development {
+	position: relative; 
+	top: 0; 
+	left: 20px;
+} 
+
+#text2 {
+	position: relative; 
+	top: -340px; 
+	left: 0; 
+} 
+
+#img_2 {
+	position: relative; 
+	top: 0; 
+	left: 165px;
+} 
+
+#blog_block_2 {
+	position: relative; 
+	top: -130px; 
+	left: 0;
+} 
+
+#blog_block_3 {
+	position: relative; 
+	top: -250px; 
+	left: 0;
+} 
+
+.blog h3:hover {
+	color: #00897b; 
+	transition: 0.2s; 
+	cursor: pointer;
+} 
+
+.contacts {
+	background-color: #212121;
+	width: 1519px; 
+	height: 1425px;  
+	margin: -25px 0px 0px -8px;
+	color: white;
+} 
+
+.contacts_start {
+	width: 619px;
+	text-align: center; 
+	margin: 0px 454px; 
+	padding: 170px 0px;
+} 
+
+.contacts_table {
+	display: table;
+} 
+
+.contacts_table_row {
+	display: table-row; 
+	position: relative; 
+	top: 0; 
+	left: 90px;
+} 
+
+.contacts_table_cell {
+	display: table-cell;
+	font-size: 75%; 
+	width: 427px; 
+	text-align: center; 
+	padding: 0px 5px;
+} 
+
+#navigation {
+	
+	padding: 22.5px 31.5px;  
+	background-color: #3949ab; 
+	border-radius: 50%;
+
+} 
+
+#phon_call_img {
+	 
+	padding: 22.5px; 
+	background-color: #3949ab; 
+	border-radius: 50%;
+} 
+
+#mail {
+	
+	padding: 31.5px 22.5px; 
+	background-color: #3949ab; 
+	border-radius: 50%;
+} 
+
+.input_name {
+	margin: 80px 0px 0px 222px; 
+} 
+
+.input_name input {
+	width: 500px; 
+	height: 84px; 
+	margin: 0px 15px; 
+	border-radius: 10px;
+} 
+
+input[type="text"] {
+	font-family: OpenSans, sans-serif; 
+	font-size: 16px; 
+	padding: 0px 0px 0px 20px; 
+} 
+
+.contacts textarea {
+	width: 1070px;
+	height: 323px; 
+	margin: 30px 0px 0px 238px; 
+	border-radius: 10px;
+} 
+
+#submit {
+	position: relative; 
+	top: 68px; 
+	left: 1095px; 
+	width: 220px;
+	height: 70px; 
+	background-color: #fff; 
+	border-radius: 10px;
+} 
+
+#submit[value="SEND"] {
+	font-size: 18px; 
+	font-weight: 700px;
+} 
+
+#submit:hover {
+	background-color: #000; 
+	transition: 0.5s;
+} 
+
+#submit[value="SEND"]:hover {
+	color: #fff; 
+	transition: 0.5s;
+} 
+
+footer {
+	text-align: center;
+}
